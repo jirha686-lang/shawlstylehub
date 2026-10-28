@@ -8,9 +8,9 @@ A responsive shawl shop website made with plain HTML and CSS. No installation or
 
 ## Publish using GitHub Pages
 1. Open https://github.com/jirha686-lang/shawlstylehub
-2. Click **Add file → Upload files** and upload the files inside the folder (not the ZIP itself).
+2. Upload all files and folders, including `shawls` and `.github`.
 3. Click **Commit changes**.
-4. Go to **Settings → Pages**, choose branch `main` and folder `/ (root)`, then **Save**.
+4. Go to **Settings → Pages** and set Source to **GitHub Actions**.
 5. Your site will be live at https://jirha686-lang.github.io/shawlstylehub/
 
 ## Before you go live
