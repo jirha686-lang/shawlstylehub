@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact | Shawl Style Hub</title>
+<meta name="description" content="Contact Shawl Style Hub to order or ask about a shawl.">
+<link rel="canonical" href="https://jirha686-lang.github.io/shawlstylehub/contact.html">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><div class="wrap"><a class="logo" href="index.html">Shawl Style Hub</a>
+<nav><a href="index.html">Home</a><a href="about.html">About</a><a href="contact.html"aria-current="page">Contact</a></nav></div></header>
+<main>
+
+<div class="wrap"><section><h1>Contact us</h1><p>Fill in the form and your message opens in WhatsApp, ready to send.</p>
+<form id="f"><div><label for="n">Your name</label><input id="n" required></div>
+<div><label for="m">Message</label><textarea id="m" rows="5" required></textarea></div>
+<button class="btn" type="submit">Send on WhatsApp</button></form></section></div>
+<script>
+// Replace with your WhatsApp number in international format, digits only (e.g. 923001234567)
+var NUMBER="92XXXXXXXXXX";
+document.getElementById('f').addEventListener('submit',function(e){e.preventDefault();
+var t='Hello Shawl Style Hub, I am '+document.getElementById('n').value+'. '+document.getElementById('m').value;
+window.open('https://wa.me/'+NUMBER+'?text='+encodeURIComponent(t),'_blank');});
+</script>
+</main>
+<footer><div class="wrap"><p><a href="index.html">Home</a><a href="about.html">About</a><a href="contact.html">Contact</a><a href="privacy-policy.html">Privacy Policy</a></p>
+<p>&copy; 2026 Shawl Style Hub. All rights reserved.</p></div></footer>
+</body>
+</html>
