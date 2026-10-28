@@ -1,2 +1,17 @@
-# shawlstylehub
-Explore stylish men's and women's shawls, winter fashion, Kashmiri designs, and elegant shawl styling ideas.
+# Shawl Style Hub
+
+A responsive shawl shop website made with plain HTML and CSS. No installation or build step needed.
+
+## Preview locally
+1. Extract the ZIP file.
+2. Open `index.html` in your web browser.
+
+## Publish using GitHub Pages
+1. Open https://github.com/jirha686-lang/shawlstylehub
+2. Click **Add file → Upload files** and upload the files inside the folder (not the ZIP itself).
+3. Click **Commit changes**.
+4. Go to **Settings → Pages**, choose branch `main` and folder `/ (root)`, then **Save**.
+5. Your site will be live at https://jirha686-lang.github.io/shawlstylehub/
+
+## Before you go live
+- In `contact.html`, replace `92XXXXXXXXXX` with your WhatsApp number.
