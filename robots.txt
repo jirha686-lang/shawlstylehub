@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://jirha686-lang.github.io/shawlstylehub/sitemap.xml
