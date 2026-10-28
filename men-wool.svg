@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" role="img" aria-label="Man wearing a plain wool shawl (illustration)"><defs>#efe9e1</defs>
+<rect width="400" height="500" fill="#dfe8ea"/>
+<rect x="150" y="175" width="100" height="40" rx="20" fill="#1d1a22"/><rect x="180" y="270" width="40" height="50" fill="#c99673"/>
+<circle cx="200" cy="235" r="50" fill="#c99673"/>
+<path d="M105 500 L120 345 Q200 300 280 345 L295 500Z" fill="<pattern id="p" width="30" height="30" patternUnits="userSpaceOnUse"><rect width="30" height="30" fill="#3d5a40"/><rect width="15" height="30" fill="#4a6b4d"/></pattern>"/>
+<path d="M85 500 L98 345 Q200 285 302 345 L315 500 L262 500 Q255 410 200 385 Q145 410 138 500Z" fill="url(#p)"/>
+<path d="M98 345 Q200 285 302 345" fill="none" stroke="#e8a33d" stroke-width="5"/>
+</svg>
